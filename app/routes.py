@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
 router =APIRouter()
-
+#router can be namer anythning like routers @routers.get
 # @router.get("/")
 # def home():
 #     return {"message" : "Welcome to Anikets Fast API"}
