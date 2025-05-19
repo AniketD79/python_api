@@ -48,3 +48,41 @@ def get_form_data():
         ]
     }
     return form_data
+
+@router.get("/my-details")
+def getMyDetails():
+    mydetails = {
+        "name" : "Aniket",
+        "age" : 26,
+        "hobbies" : ['singing', 'playing cricket', 'coding'],
+        "planguages" : ["Java", "Dart", "C++", "Python"],
+    }
+    return mydetails
+
+@router.get("/test")
+def getTest():
+    test={
+        "test1":"test",
+        "test2":"test"
+    }
+    return test
+
+@router.get("/aniket")
+def getAniket():
+    aniket={
+        "aniket" : ["Aniket", "Nandkishor", "Darje", 9],
+        "data" : ["Durgapura Gully"],
+        "pin" : 443204,
+        "mobile" : 7499960264,
+        "email" : "aniketdarje9@gmail.com",
+        "mix" : {
+            "a" : "ab",
+            "b" : ['a','b','c'],
+            "c" : {
+                'a': 'a',
+                'b' : 'b'
+            }
+        }
+    }
+
+    return aniket   
