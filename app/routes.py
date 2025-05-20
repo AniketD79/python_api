@@ -71,7 +71,8 @@ def getTest():
 def getAniket():
     aniket={
         "aniket" : ["Aniket", "Nandkishor", "Darje", 9],
-        "data" : ["Durgapura Gully"],
+        "data" : ["Durgapura Gully",{"street" : "Bus Stand Road",
+                                     "house_no":"7"}],
         "pin" : 443204,
         "mobile" : 7499960264,
         "email" : "aniketdarje9@gmail.com",
@@ -80,7 +81,8 @@ def getAniket():
             "b" : ['a','b','c'],
             "c" : {
                 'a': 'a',
-                'b' : 'b'
+                'b' : 'b',
+                'c' :['a', 'b',9]
             }
         }
     }
